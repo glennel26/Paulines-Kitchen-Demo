@@ -27,3 +27,7 @@ The system was completed within a 13-day development sprint and deployed using I
 - PayMongo API
 - PHPMailer
 - InfinityFree
+
+## Disclaimer
+
+This project was developed for educational and portfolio purposes. Product names, logos, and food images belong to their respective owners. The images are used solely to demonstrate the functionality of the web application and are not intended for commercial use.
