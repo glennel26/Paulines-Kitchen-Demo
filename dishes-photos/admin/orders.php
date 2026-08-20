@@ -162,15 +162,15 @@ function sendStatusEmail(array $order, array $items, string $newStatus): bool {
     try {
         $mail = new PHPMailer(true);
         $mail->isSMTP();
-        $mail->Host       = 'smtp.gmail.com';
+        $mail->Host       = 'HOST HERE';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'glennelcruz26@gmail.com';
+        $mail->Username   = 'YOUR EMAIL HERE';
         $mail->Password   = 'sarq axdh tcdu seaa';
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
         $mail->CharSet    = 'UTF-8';
 
-        $mail->setFrom('glennelcruz26@gmail.com', "Paulines' Kitchen");
+        $mail->setFrom('YOUR EMAIL HERE', "Paulines' Kitchen");
         $mail->addAddress($order['email'], $order['fullname']);
         $mail->isHTML(true);
         $mail->Subject = $msg['subject'] . ' - ' . $ref;
