@@ -33,14 +33,14 @@ $reset_link = $protocol . '://' . $_SERVER['HTTP_HOST'] . '/user/reset_password.
 $mail = new PHPMailer(true);
 try {
     $mail->isSMTP();
-    $mail->Host       = 'smtp.gmail.com';
+    $mail->Host       = 'HOST HERE';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'glennelcruz26@gmail.com';
+    $mail->Username   = 'YOUR EMAIL HERE';
     $mail->Password   = 'sarq axdh tcdu seaa';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = 587;
     $mail->CharSet    = 'UTF-8';
-    $mail->setFrom('glennelcruz26@gmail.com', "Pauline's Kitchen");
+    $mail->setFrom('YOUR EMAIL HERE', "Pauline's Kitchen");
     $mail->addAddress($email);
     $mail->isHTML(true);
     $mail->Subject = "Reset your Pauline's Kitchen password";
