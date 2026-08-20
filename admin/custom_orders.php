@@ -26,7 +26,7 @@ if (isset($_POST['update_status'])) {
                 $mail->Host       = 'HOST HERE';
                 $mail->SMTPAuth   = true;
                 $mail->Username   = 'YOUR EMAIL HERE';
-                $mail->Password   = 'sarq axdh tcdu seaa';
+                $mail->Password   = 'PASSWORD HERE';
                 $mail->SMTPSecure = 'tls';
                 $mail->Port       = 587;
                 $mail->CharSet    = 'UTF-8';
