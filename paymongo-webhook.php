@@ -13,7 +13,7 @@ define('PAYMONGO_WEBHOOK_SECRET', 'whsec_placeholder');
 define('SMTP_HOST',     'HOST HERE');
 define('SMTP_PORT',     587);
 define('SMTP_USER',     'EMAIL HERE');
-define('SMTP_PASS',     'sarq axdh tcdu seaa');
+define('SMTP_PASS',     'PASSWORD HERE');
 define('PICKUP_ADDRESS','45 University Avenue, San Miguel, Bulacan');
 // ────────────────────────────────────────────────────────
 
