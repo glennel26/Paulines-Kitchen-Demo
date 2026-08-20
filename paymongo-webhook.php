@@ -10,9 +10,9 @@ use PHPMailer\PHPMailer\Exception;
 
 // ── CONFIG ──────────────────────────────────────────────
 define('PAYMONGO_WEBHOOK_SECRET', 'whsec_placeholder');
-define('SMTP_HOST',     'smtp.gmail.com');
+define('SMTP_HOST',     'HOST HERE');
 define('SMTP_PORT',     587);
-define('SMTP_USER',     'glennelcruz26@gmail.com');
+define('SMTP_USER',     'EMAIL HERE');
 define('SMTP_PASS',     'sarq axdh tcdu seaa');
 define('PICKUP_ADDRESS','45 University Avenue, San Miguel, Bulacan');
 // ────────────────────────────────────────────────────────
